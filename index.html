@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>NICE</title>
+    <link rel="icon" sizes="16x16" href="https://www.nice.co.kr/resources/favicon/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/swiper.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#">
+                    <span class="blind">nice</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+                        <defs>
+                            <clipPath id="a">
+                                <path data-name="Rectangle 184173" transform="translate(.3 .299)" d="M0 0h41v41H0z">
+                                </path>
+                            </clipPath>
+                        </defs>
+                        <path fill="#00388d" d="M0 0h65v65H0z"></path>
+                        <path data-name="+"
+                            d="m51.999 32.001-18.652-.864-.835-18.129h-.031l-.85 18.129-18.632.864v.035l18.631.791.85 19.17h.031l.835-19.17 18.653-.791Z"
+                            fill="#f5a626"></path>
+                        <g data-name="logo" clip-path="url(#a)" fill="#fff" transform="translate(11.7 11.7)">
+                            <path data-name="Path 104438"
+                                d="M16.649 1.078v.6h-.3c-.833 0-1.77.167-1.77 2.53v9.058a13.358 13.358 0 0 0 .116 2.017h-.751L3.683 3.851v8.2c0 1.735.338 2.331 1.872 2.331h.343v.584H.617v-.584h.275c1.378 0 1.792-.94 1.792-2.534V3.472A1.788 1.788 0 0 0 .869 1.678H.617v-.6h4.059l8.869 9.985.04-.049V3.555a1.65 1.65 0 0 0-1.742-1.877h-.433v-.6Z">
+                            </path>
+                            <path data-name="Path 104439"
+                                d="M30.418 14.968v-.585h.282c.716 0 1.475-.1 1.475-1.14V2.817c0-1.042-.759-1.142-1.475-1.142h-.282v-.6h6.079v.6h-.28c-.719 0-1.469.1-1.469 1.142v10.426c0 1.038.749 1.14 1.469 1.14h.28v.585Z">
+                            </path>
+                            <path data-name="Path 104440"
+                                d="M13.818 40.746a11.5 11.5 0 0 1-4.559.9c-4.481 0-7.806-2.448-7.806-7.445 0-4.461 3.609-7.048 7.71-7.048 2.328 0 3.082.716 4.955.987l.162 3.338-.6.075c-.556-1.939-1.474-3.525-4.463-3.525-3.264 0-4.983 2.569-4.983 6.054 0 3.321 1.7 6.685 5.459 6.685a4.057 4.057 0 0 0 4.061-3.32l.563.079Z">
+                            </path>
+                            <path data-name="Path 104441"
+                                d="M27.524 41.348v-.6h.286c.718 0 1.472-.1 1.472-1.131V29.182c0-1.044-.754-1.14-1.472-1.14h-.283v-.592h10.064a29.951 29.951 0 0 0 .037 3.044l-.605.162c-.1-1.3-.332-2.334-2.424-2.334H31.83v5.217h2.369c1.2 0 1.451-.668 1.578-1.75h.592v4.6l-.592.121c-.127-1.193-.18-1.962-1.559-1.962H31.83v4.634c0 1.3 1.155 1.3 2.424 1.3 2.4 0 3.448-.162 4.045-2.437l.561.142c-.264 1.05-.5 2.111-.674 3.168Z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li class="depth1">
+                        <a href="#"><span>NICE</span></a>
+                        <ul class="depth2">
+                            <li><a href="#">경영이념</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">NICE그룹</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#"><span>비즈니스</span></a>
+                        <ul class="depth2">
+                            <li><a href="#">사업소개</a></li>
+                            <li><a href="#">평가∙데이터</a></li>
+                            <li><a href="#">결제</a></li>
+                            <li><a href="#">금융</a></li>
+                            <li><a href="#">친환경∙제조</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#"><span>투자 정보</span></a>
+                        <ul class="depth2">
+                            <li><a href="#">기업지배구조</a></li>
+                            <li><a href="#">주식정보</a></li>
+                            <li><a href="#">재무정보</a></li>
+                            <li><a href="#">공시정보</a></li>
+                            <li><a href="#">IR 자료실</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#"><span>지속가능경영</span></a>
+                        <ul class="depth2">
+                            <li><a href="#">윤리경영</a></li>
+                            <li><a href="#">사회공헌</a></li>
+                            <li><a href="#">ESG</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#"><span>인재 영입</span></a>
+                        <ul class="depth2">
+                            <li><a href="#">NICE인</a></li>
+                            <li><a href="#">조직문화</a></li>
+                            <li><a href="#" class="ic">채용공고</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#"><span>뉴스</span></a>
+                        <ul class="depth2">
+                            <li><a href="#">보도자료</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="language_area">
+                <ul>
+                    <li class="current"><a href="#">KR</a></li>
+                    <li><a href="#">EN</a></li>
+                </ul>
+            </div>
+            <button class="btn_allMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="https://www.nice.co.kr/resources/assets/svg/icon-closemenu.svg" alt="닫기" class="btn_close">
+            </button>
+        </div>
+    </header>
+    <div class="all_menu">
+        <div class="mask_wrap">
+            <div class="mask"></div>
+            <div class="mask"></div>
+            <div class="mask"></div>
+            <div class="mask"></div>
+        </div>
+        <div class="inner">
+            <ul class="menu">
+                <li class="depth1">
+                    <a href="#">
+                        <span class="name">NICE</span>
+                        <img src="https://www.nice.co.kr/resources/assets/svg/icon-dropdown.svg" alt>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">경영이념</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">NICE그룹</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">
+                        <span class="name">비즈니스</span>
+                        <img src="https://www.nice.co.kr/resources/assets/svg/icon-dropdown.svg" alt>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">사업소개</a></li>
+                        <li><a href="#">평가∙데이터</a></li>
+                        <li><a href="#">결제</a></li>
+                        <li><a href="#">금융</a></li>
+                        <li><a href="#">친환경∙제조</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">
+                        <span class="name">투자정보</span>
+                        <img src="https://www.nice.co.kr/resources/assets/svg/icon-dropdown.svg" alt>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">기업지배구조</a></li>
+                        <li><a href="#">주식정보</a></li>
+                        <li><a href="#">재무정보</a></li>
+                        <li><a href="#">공시정보</a></li>
+                        <li><a href="#">IR 자료실</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">
+                        <span class="name">지속가능경영</span>
+                        <img src="https://www.nice.co.kr/resources/assets/svg/icon-dropdown.svg" alt>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">윤리경영</a></li>
+                        <li><a href="#">사회공헌</a></li>
+                        <li><a href="#">ESG</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">
+                        <span class="name">인재 영입</span>
+                        <img src="https://www.nice.co.kr/resources/assets/svg/icon-dropdown.svg" alt>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">NICE인</a></li>
+                        <li><a href="#">조직문화</a></li>
+                        <li><a href="#">채용공고</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">
+                        <span class="name">뉴스</span>
+                        <img src="https://www.nice.co.kr/resources/assets/svg/icon-dropdown.svg" alt>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">보도자료</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="language">
+                <li class="current"><a href="#">KR</a></li>
+                <li><a href="#">EN</a></li>
+            </ul>
+        </div>
+    </div>
+    <main class="container">
+        <section class="sc_intro">
+            <div class="txt_wrap">
+                <div class="big_txt">
+                    <div class="big_txt_line1">
+                        <div class="txt_mask">
+                            <span class="txt">
+                                <span class="t_item">NICE</span>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <div class="line_wrap">
+                                <div class="line_inner line_inner1">NICE INTELLIGENCE CREATES
+                                </div>
+                            </div>
+                            <div class="line_wrap">
+                                <div class="line"></div>
+                                <div class="line_inner line_inner2">A BETTER
+                                    FUTURE</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="big_txt_line2">
+                        <span class="txt">GROUP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_wrap">
+                <video src="https://www.nice.co.kr/resources/assets/video/main_pc.mp4" muted playsinline autoplay></video>
+                <div class="banner_mask">
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_record">
+            <div class="title_area">
+                <h2 class="title">
+                    <div class="tit_wrap">
+                        <div class="line_wrap">
+                            <div class="line_inner">
+                                <span> NICE의 <br class="mo"> 새로운 기록들은 <br class="mo"></span>
+                            </div>
+                        </div>
+                        <div class="line_wrap">
+                            <div class="line_inner">
+                                <span>더 나은 변화를 <br class="mo"> 만들어갑니다.</span>
+                            </div>
+                        </div>
+                    </div>
+                </h2>
+                <div class="txt_desc">
+                    <div class="desc_inner">
+                        <span> 최초 신용평가, 압도적인 결제 <br class="mo">
+                            processing, 최대 규모 데이터 보유. <br class="mo">
+                            스스로 드러내지 않아도 ‘최대’, ‘최초’, <br class="mo">
+                            ‘1위‘ 는 NICE를 나타내는 수식어였습니다. <br class="mo"> <br class="mo">
+                            NICE가 이어가는 새로운 기록들은 <br class="mo">
+                            일상 속에 스며들어 더 나은 변화를 <br class="mo">
+                            만들어 나가고 있습니다. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="data_area">
+                <div class="data_wrap">
+                    <div class="stat_wrap stat_wrap1">
+                        <div class="single_stat single_stat1">
+                            <span class="label">개인/기업 신용평가</span>
+                            <div class="stat_number_wrap">
+                                <span class="append">국내</span>
+                                <span class="number">
+                                    <div class="line_wrap">
+                                        <div class="char">최</div>
+                                    </div>
+                                    <div class="line_wrap">
+                                        <div class="char">초</div>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="single_stat single_stat2">
+                            <span class="label">연간 지급결제 거래액</span>
+                            <div class="stat_number_wrap">
+                                <span class="number line_wrap value_wrap">
+                                    <span class="hidden_value">342</span>
+                                    <span class="char counter show_value" id="number1">342</span>
+                                </span>
+                                <span class="line_wrap">
+                                    <span class="char append">조 원</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat_wrap stat_wrap2">
+                        <div class="single_stat single_stat3">
+                            <span class="label">NICE 신용점수를 <br class="mo">참고하는 국내 금융기관</span>
+                            <div class="stat_number_wrap value">
+                                <span class="append">국내</span>
+                                <span class="number line_wrap number-percentage value_wrap">
+                                    <span class="hidden_value">100</span>
+                                    <span class="char counter show_value" id="number2">100</span>
+                                    <span class="line_wrap">
+                                        <span class="char unit_percentage">%</span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="single_stat single_stat4">
+                            <span class="label">2차전지 보호회로</span>
+                            <div class="stat_number_wrap">
+                                <span class="append">글로벌</span>
+                                <span class="number line_wrap">
+                                    <span class="line_inner">No.</span>
+                                    <span class="line_wrap">
+                                        <span class="line_inner">1</span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_about">
+            <div class="banner_mask">
+                <img src="https://www.nice.co.kr/resources/assets/images/index/index_section2-banner.jpg" alt
+                    class="pc">
+                <img src="https://www.nice.co.kr/resources/assets/images/index/index_section2-banner_mobile.jpg" alt=""
+                    class="mo">
+                <div class="mask_wrap">
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                    <div class="mask"></div>
+                </div>
+            </div>
+            <div class="title_area">
+                <h2 class="title">
+                    <div class="tit_wrap">
+                        <div class="line_wrap">
+                            <div class="line_inner line_inner1">
+                                <span>지식 자산을 바탕으로 <br class="mo"> 금융과 제조 분야의</span>
+                            </div>
+                        </div>
+                        <div class="line_wrap">
+                            <div class="line_inner line_inner2">
+                                <span>필수 인프라를 제공합니다.</span>
+                            </div>
+                        </div>
+                    </div>
+                </h2>
+                <div class="txt_desc">
+                    <div class="desc_inner">
+                        <span>NICE는 언제나 새로운 가치의 출발점이었습니다. 개인과 기업의 가치는 NICE의 데이터와 평가에서 시작되고, 상거래의 중심에는 NICE의 온•오프라인 결제
+                            서비스가 있습니다. 매일 사용하는 휴대폰에는 NICE가 만든 반도체가 내재되어 있습니다. 전문성과 오랜 노하우를 바탕으로 우리 생활에, 자본시장에 꼭 필요한 필수
+                            인프라를 제공하는 역할을 합니다.</span>
+                    </div>
+                </div>
+                <div class="btn_link">
+                    <a href="#">
+                        <span>NICE 사업보기</span>
+                        <div class="bg_swipe"></div>
+                        <div class="arrow">
+                            <div class="arrow_mask">
+                                <div class="in">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16" height="16" viewBox="0 0 16 16">
+                                        <defs>
+                                            <clipPath id="clip-path">
+                                                <rect id="Rectangle_184301" data-name="Rectangle 184301" width="16"
+                                                    height="16" transform="translate(983 3349)" fill="none"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g id="arrow" transform="translate(-983 -3349)" clip-path="url(#clip-path)">
+                                            <path id="Union_12" data-name="Union 12"
+                                                d="M-914.316,6387.074l3.057-3.373H-920v-2h8.734l-3.049-3.354,1.48-1.345,5.18,5.7-5.179,5.717Z"
+                                                transform="translate(1904.827 -3025.708)">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="sc_element">
+            <div class="inner">
+                <div class="navi">
+                    <ul>
+                        <li data-target="0">
+                            <a href="#slide1">
+                                <div class="dot"></div>
+                                <div class="out_dot"></div>
+                            </a></li>
+                        <li data-target="0.35"><a href="#slide2">
+                                <div class="dot"></div>
+                                <div class="out_dot"></div>
+                            </a></li>
+                        <li data-target="0.7"><a href="#slide3">
+                                <div class="dot"></div>
+                                <div class="out_dot"></div>
+                            </a></li>
+                        <li data-target="1"><a href="#slide4">
+                                <div class="dot"></div>
+                                <div class="out_dot"></div>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="slide slide1" id="slide1">
+                    <div class="bg">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-eval.jpg" alt
+                            class="pc">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-eval_mobile.jpg"
+                            alt="" class="mo">
+                    </div>
+                    <div class="txt_wrap">
+                        <div class="tit">Rating·Data</div>
+                        <div class="desc">
+                            <p class="label">
+                                <span>평가·데이터</span>
+                            </p>
+                            <div class="txt_box">
+                                <div class="txt_desc">
+                                    <span>
+                                        NICE그룹은 개인과 기업의 신용평가를 동시에 수행하는 국내 유일의 금융인프라 그룹입니다. 전국민이 안심하고 자본시장에 참여할 수 있도록,
+                                        전문성을 바탕으로 신뢰할 수 있는 신용 인프라를 구축하고 있습니다.
+                                    </span>
+                                    <a href="#" class="btn_more">
+                                        <span>VIEW MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide2" id="slide2">
+                    <div class="bg">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-payment.jpg" alt
+                            class="pc">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-payment_mobile.jpg"
+                            alt class="mo">
+                    </div>
+                    <div class="txt_wrap">
+                        <div class="tit">Payment</div>
+                        <div class="desc">
+                            <p class="label">
+                                <span>결제</span>
+                            </p>
+                            <div class="txt_box">
+                                <div class="txt_desc">
+                                    <span>
+                                        오프라인에도 온라인에도, 현금도 신용카드도, 대한민국 결제 프로세스의 모든 과정에는 NICE가 있습니다.
+                                    </span>
+                                    <a href="#" class="btn_more">
+                                        <span>VIEW MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide3">
+                    <div class="bg">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-finance.jpg" alt
+                            class="pc">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-finance_mobile.jpg"
+                            alt class="mo">
+                    </div>
+                    <div class="txt_wrap">
+                        <div class="tit">
+                            <span>Financial</span>
+                            <span>Service</span>
+                        </div>
+                        <div class="desc">
+                            <p class="label">
+                                <span>금융</span>
+                            </p>
+                            <div class="txt_box">
+                                <div class="txt_desc">
+                                    <span>금융인프라 자산을 바탕으로 투자와 채권관리 등 종합자산 관리
+                                        분야에서도 차별화된 서비스를 제공합니다.</span>
+                                    <a href="#" class="btn_more">
+                                        <span>VIEW MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide4">
+                    <div class="bg">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-eco.jpg" alt
+                            class="pc">
+                        <img src="https://www.nice.co.kr/resources/assets/images/index/index-slider-eco_mobile.jpg" alt
+                            class="mo">
+                    </div>
+                    <div class="txt_wrap">
+                        <div class="tit">
+                            <span>Green∙</span>
+                            <span>Technology</span>
+                        </div>
+                        <div class="desc">
+                            <p class="label">
+                                <span>친환경∙제조</span>
+                            </p>
+                            <div class="txt_box">
+                                <div class="txt_desc">
+                                    <span>
+                                        우리 생활에 꼭 필요한 스마트폰과 웨어러블 기기,
+                                        자동차에도 NICE의 기술 인프라가 필수로 포함되어 있습니다.
+                                    </span>
+                                    <a href="#" class="btn_more">
+                                        <span>VIEW MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_news">
+            <div class="inner">
+                <h2 class="big_title">
+                    <div class="line_wrap">
+                        <span>NEWS</span>
+                    </div>
+                </h2>
+                <ul class="news_list">
+                    <li>
+                        <a href="#">
+                            <p class="cate">NICE디앤알</p>
+                            <div class="tit">
+                                <p>2023.10.5 ㅣNICE디앤알의 나이스다큐, 인포텍코퍼레이션㈜의 세액공제자동화AI솔루션(Taxbot-R)내 전자청구서 기능 제공</p>
+                                <div class="ic">
+                                    <img class="hover"
+                                        src="https://www.nice.co.kr/resources/assets/svg/icon-arrow-mobile-2-white.svg">
+                                    <img class="default"
+                                        src="https://www.nice.co.kr/resources/assets/svg/icon-arrow-mobile-2-white.svg">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="cate">NICE엔써</p>
+                            <div class="tit">
+                                <p>2023.9.27 ㅣNICE엔써, 하나금융그룹으로부터 프리-A 전략적 투자 유치</p>
+                                <div class="ic">
+                                    <img class="hover"
+                                        src="https://www.nice.co.kr/resources/assets/svg/icon-arrow-mobile-2-white.svg">
+                                    <img class="default"
+                                        src="https://www.nice.co.kr/resources/assets/svg/icon-arrow-mobile-2-white.svg">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="cate">NICE정보통신</p>
+                            <div class="tit">
+                                <p>2023.8.31 ㅣNICE정보통신, CUBOX와 안면인식결제 사업진출을 위한 MOU체결</p>
+                                <div class="ic">
+                                    <img class="hover"
+                                        src="https://www.nice.co.kr/resources/assets/svg/icon-arrow-mobile-2-white.svg">
+                                    <img class="default"
+                                        src="https://www.nice.co.kr/resources/assets/svg/icon-arrow-mobile-2-white.svg">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="btn_link">
+                    <a href="#">
+                        <span>NICE 뉴스보기</span>
+                        <div class="bg_swipe"></div>
+                        <div class="arrow">
+                            <div class="arrow_mask">
+                                <div class="in">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16" height="16" viewBox="0 0 16 16">
+                                        <defs>
+                                            <clipPath id="clip-path">
+                                                <rect id="Rectangle_184301" data-name="Rectangle 184301" width="16"
+                                                    height="16" transform="translate(983 3349)" fill="none"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g id="arrow" transform="translate(-983 -3349)" clip-path="url(#clip-path)">
+                                            <path id="Union_12" data-name="Union 12"
+                                                d="M-914.316,6387.074l3.057-3.373H-920v-2h8.734l-3.049-3.354,1.48-1.345,5.18,5.7-5.179,5.717Z"
+                                                transform="translate(1904.827 -3025.708)">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="sc_careers">
+            <div class="inner">
+                <div class="title_mask">
+                    <h2 class="big_title">
+                        <div class="line_wrap">
+                            <span>CAREERS</span>
+                        </div>
+                    </h2>
+                </div>
+                <div class="swiper career_slider">
+                    <div class="controller">
+                        <button class="swiper-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                <defs>
+                                    <clipPath id="ab1">
+                                        <path data-name="Rectangle 183389" transform="translate(670.004 6354)"
+                                            fill="#fff" d="M0 0h18v18H0z"></path>
+                                    </clipPath>
+                                </defs>
+                                <g transform="translate(-670.004 -6354)" clip-path="url(#ab1)">
+                                    <path data-name="패스 104345"
+                                        d="m677.422 6369.411-1.422-1.406 4.3-4.345-4.289-4.241 1.406-1.422 5.711 5.647Z"
+                                        fill="#fff"></path>
+                                </g>
+                            </svg>
+                        </button>
+                        <button class="swiper-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                <defs>
+                                    <clipPath id="ab1">
+                                        <path data-name="Rectangle 183389" transform="translate(670.004 6354)"
+                                            fill="#fff" d="M0 0h18v18H0z"></path>
+                                    </clipPath>
+                                </defs>
+                                <g transform="translate(-670.004 -6354)" clip-path="url(#ab1)">
+                                    <path data-name="패스 104345"
+                                        d="m677.422 6369.411-1.422-1.406 4.3-4.345-4.289-4.241 1.406-1.422 5.711 5.647Z"
+                                        fill="#fff"></path>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item1">
+                            <div class="thumb">
+                                <img src="https://www.nice.co.kr/resources/assets/images/index/index_careers-slide0.jpg"
+                                    alt class="pc">
+                                <img src="https://www.nice.co.kr/resources/assets/images/index/index_careers-slide0_mobile.jpg"
+                                    alt class="mo">
+                                <div class="thumb_mask">
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <p class="cate">개인 신용평가시스템 개발 담당</p>
+                                <p class="desc">
+                                    “ 본인이 주체가 되어 업무를 수행할 수 있으며 <br class="pc">
+                                    사내에서 지원을 받아 신사업 추진도 <br class="mo"> 가능합니다."
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item2">
+                            <div class="thumb">
+                                <img src="https://www.nice.co.kr/resources/assets/images/index/index_careers-slide1.jpg"
+                                    alt class="pc">
+                                <img src="https://www.nice.co.kr/resources/assets/images/index/index_careers-slide1_mobile.jpg"
+                                    alt class="mo">
+                                <div class="thumb_mask">
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <p class="cate">신용평가 애널리스트</p>
+                                <p class="desc">
+                                    “업무의 자유도가 높은 편이며 실무진들끼리 <br class="pc">
+                                    정보를 공유하고 조언을 아끼지 않고 협업합니다."
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item3">
+                            <div class="thumb">
+                                <img src="https://www.nice.co.kr/resources/assets/images/index/index_careers-slide2.jpg"
+                                    alt class="pc">
+                                <img src="https://www.nice.co.kr/resources/assets/images/index/index_careers-slide2_mobile.jpg"
+                                    alt="" class="mo">
+                                <div class="thumb_mask">
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <p class="cate">개인 신용평가 컨설턴트</p>
+                                <p class="desc">
+                                    “국내 최대 CB 사업자로서 방대한 양의 <br>
+                                    데이터를 활용하여 다양한 업무 경험을 쌓을 수 있습니다."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_link">
+                    <a href="#">
+                        <span>NICE인 보기</span>
+                        <div class="bg_swipe"></div>
+                        <div class="arrow">
+                            <div class="arrow_mask">
+                                <div class="in">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16" height="16" viewBox="0 0 16 16">
+                                        <defs>
+                                            <clipPath id="clip-path">
+                                                <rect id="Rectangle_184301" data-name="Rectangle 184301" width="16"
+                                                    height="16" transform="translate(983 3349)" fill="none"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g id="arrow" transform="translate(-983 -3349)" clip-path="url(#clip-path)">
+                                            <path id="Union_12" data-name="Union 12"
+                                                d="M-914.316,6387.074l3.057-3.373H-920v-2h8.734l-3.049-3.354,1.48-1.345,5.18,5.7-5.179,5.717Z"
+                                                transform="translate(1904.827 -3025.708)">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="sc_stock">
+            <div class="txt_wrap">
+                <div class="stock_box">
+                    <div class="item item1">
+                        <p class="tit">STOCK</p>
+                        <p class="num" id="number3">13,030</p>
+                    </div>
+                    <div class="item item2">
+                        <a href="#" class="btn_more">
+                            <span>NICE 주식 정보 보기</span>
+                        </a>
+                        <div class="stock_details">
+                            <div class="percent">
+                                <svg xmlns="http://www/resources/0/svg" width="10" height="8" viewBox="0 0 10 8">
+                                    <path d="m5 0 5 8H0Z" fill="#ae1e02"></path>
+                                </svg>
+                                <span>70(0.54%)</span>
+                            </div>
+                            <div class="date">
+                                KRX 2023.11.22
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 231.54">
+                <defs>
+                </defs>
+                <g class="to-fill">
+                    <g class="cls-1">
+                        <path
+                            d="M20.05,138.17v-.83L25.69,134a6.8,6.8,0,0,1,.67-.34H20.05V133h7.21v.83l-5.66,3.32a5.53,5.53,0,0,1-.65.33h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,126.83h.62v3.64h2.58V127h.62v3.43h2.77v-3.71h.62v4.41H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,120.42h.62v2.31h6.59v.7H20.67v2.3h-.62Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,119.73V119l6.46-1.62h0l-6.46-1.72v-.79l6.46-1.72h0l-6.46-1.62v-.73l7.21,2v.8l-6.4,1.71,6.4,1.71v.8Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M23.16,104h1c2,0,3.22,1,3.22,2.81s-1.25,2.81-3.22,2.81h-1c-2,0-3.22-1-3.22-2.81S21.19,104,23.16,104Zm.93.71h-.87c-1.72,0-2.65.82-2.65,2.1s.93,2.1,2.65,2.1h.87c1.72,0,2.65-.82,2.65-2.1S25.81,104.7,24.09,104.7Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M24.14,99.55a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H20.05V99.83a2,2,0,0,1,2-2.27h.15A1.89,1.89,0,0,1,24,98.86l3.27-1.45v.75Zm-3.46,2.07h2.84V100c0-1.25-.52-1.77-1.39-1.77H22c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M23.13,93.71l4.13-3.19v.9l-3.62,2.79.95.92h2.67v.7H20.05v-.7h3.64l-3.64-3.48v-.94Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,89.2v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,86.65v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H20.05V81.5h7.21v.83L21.6,85.65A5.53,5.53,0,0,1,21,86h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.66,74.7l.55.36a3.09,3.09,0,0,0-.61,2c0,1.39,1,2.09,2.54,2.09h.92c1.77,0,2.64-.76,2.64-2.23a3.7,3.7,0,0,0-.36-1.69H24.06v1.7h-.62V74.52h3.29a4,4,0,0,1,.64,2.4c0,2-1.22,2.91-3.31,2.91h-.89c-2,0-3.23-1-3.23-2.8A3.62,3.62,0,0,1,20.66,74.7Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,70.21v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,67.66v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H20.05v-.67h7.21v.83L21.6,66.66A5.53,5.53,0,0,1,21,67h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,56h.62v2.31h6.59V59H20.67v2.3h-.62Z" transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,50.42h.62v3.64h2.58V50.63h.62v3.43h2.77V50.35h.62v4.41H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,48h6.59V44.38h.62v4.31H20.05Z" transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,42.46h6.59V38.85h.62v4.31H20.05Z" transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,37.63v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.66,30.13l.55.36a3.09,3.09,0,0,0-.61,2c0,1.39,1,2.09,2.54,2.09h.92c1.77,0,2.64-.76,2.64-2.23a3.7,3.7,0,0,0-.36-1.69H24.06v1.7h-.62V30h3.29a4,4,0,0,1,.64,2.4c0,2-1.22,2.91-3.31,2.91h-.89c-2,0-3.23-1-3.23-2.8A3.62,3.62,0,0,1,20.66,30.13Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,24h.62v3.64h2.58V24.2h.62v3.43h2.77V23.92h.62v4.41H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,22.26v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H20.05v-.67h7.21v.83L21.6,21.26a5.53,5.53,0,0,1-.65.33h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.66,10.39l.55.36a3,3,0,0,0-.61,1.92c0,1.33,1,2.06,2.54,2.06h.92c1.77,0,2.64-.8,2.64-2.13a2.86,2.86,0,0,0-.74-2l.55-.41a3.37,3.37,0,0,1,.86,2.4c0,1.87-1.22,2.83-3.31,2.83h-.89c-2,0-3.23-1-3.23-2.77A3.57,3.57,0,0,1,20.66,10.39Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,4.43h.62V8.07h2.58V4.64h.62V8.07h2.77V4.36h.62V8.77H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                    </g>
+                    <g class="cls-1">
+                        <path d="M43.26,138.17H36.05v-4.28h.62v3.58h2.76V134.1h.62v3.37h3.21Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M39.16,126.93h1c2,0,3.22,1,3.22,2.81s-1.25,2.81-3.22,2.81h-1c-2,0-3.22-1-3.22-2.81S37.19,126.93,39.16,126.93Zm.93.71h-.87c-1.72,0-2.65.82-2.65,2.1s.93,2.1,2.65,2.1h.87c1.72,0,2.65-.82,2.65-2.1S41.81,127.64,40.09,127.64Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.14,122.49a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H36.05v-2.49a2,2,0,0,1,2-2.27h.15A1.89,1.89,0,0,1,40,121.8l3.27-1.45v.75Zm-3.46,2.07h2.84V123c0-1.25-.52-1.77-1.39-1.77H38c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M36.66,111.21l.55.36a3,3,0,0,0-.61,1.92c0,1.33,1,2.06,2.54,2.06h.92c1.77,0,2.64-.8,2.64-2.13a2.86,2.86,0,0,0-.74-2l.55-.41a3.37,3.37,0,0,1,.86,2.4c0,1.87-1.22,2.83-3.31,2.83h-.89c-2,0-3.23-1-3.23-2.77A3.57,3.57,0,0,1,36.66,111.21Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.14,106.82a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H36.05V107.1a2,2,0,0,1,2-2.27h.15a1.89,1.89,0,0,1,1.83,1.3l3.27-1.45v.75Zm-3.46,2.07h2.84v-1.58c0-1.25-.52-1.77-1.39-1.77H38c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,98.76h.62v3.64h2.58V99h.62v3.43h2.77V98.69h.62v4.41H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M43.26,91.5v.75l-2.24.8v3l2.24.82v.72L36.05,95v-.79Zm-2.85,4.38V93.27l-1.95.7c-.49.18-.85.31-1.79.6.94.27,1.3.41,1.79.59Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,86.08h.62v2.31h6.59v.7H36.67v2.3h-.62Z" transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,84.86v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M36.05,82.31v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H36.05v-.67h7.21V78L37.6,81.31a5.53,5.53,0,0,1-.65.33h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M36.66,70.36l.55.36a3.09,3.09,0,0,0-.61,2c0,1.39,1,2.09,2.54,2.09h.92c1.77,0,2.64-.76,2.64-2.23a3.7,3.7,0,0,0-.36-1.69H40.06v1.7h-.62V70.18h3.29a4,4,0,0,1,.64,2.4c0,2-1.22,2.91-3.31,2.91h-.89c-2,0-3.23-1-3.23-2.8A3.62,3.62,0,0,1,36.66,70.36Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,61.53h.62v3.64h2.58V61.74h.62v3.43h2.77V61.46h.62v4.41H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,60.41v-.77l6.49-2.22h0l-6.49-2.22v-.73L43.26,57v.8Z"
+                            transform="translate(0 -2.46)">
+                        </path>
+                        <path d="M36.05,48.88h.62v3.64h2.58V49.09h.62v3.43h2.77V48.81h.62v4.41H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.14,44.38a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H36.05V44.66a2,2,0,0,1,2-2.27h.15A1.89,1.89,0,0,1,40,43.69l3.27-1.45V43Zm-3.46,2.07h2.84V44.87c0-1.25-.52-1.77-1.39-1.77H38c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M40.31,38.31h2.95V39H40.31l-4.26,2.48V40.7l3.62-2.05-3.62-2v-.78Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,32.57V31.8l6.49-2.22h0l-6.49-2.22v-.73l7.21,2.58V30Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M43.26,20.55v.75L41,22.1v3l2.24.82v.72L36.05,24v-.79Zm-2.85,4.38V22.32l-1.95.7c-.49.18-.85.31-1.79.6.94.27,1.3.41,1.79.59Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,18.61h6.59V15h.62v4.31H36.05Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.19,9.38H36.05V8.69h4.4c2,0,2.92,1,2.92,2.56s-.92,2.56-2.92,2.56h-4.4v-.69h4.14c1.79,0,2.55-.62,2.55-1.87S42,9.38,40.19,9.38Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,2.53h.62V6.17h2.58V2.74h.62V6.17h2.77V2.46h.62V6.87H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                    </g>
+                </g>
+            </svg>
+            <div class="arrow">
+                <div class="ico"></div>
+            </div>
+        </div>
+    </main>
+    <div class="grid_wrap">
+        <div class="grid has_border"></div>
+        <div class="grid"></div>
+        <div class="grid has_border"></div>
+        <div class="grid"></div>
+        <div class="grid has_border"></div>
+        <div class="grid"></div>
+        <div class="grid has_border"></div>
+        <div class="grid"></div>
+        <div class="grid has_border"></div>
+        <div class="grid"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="copyright">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 231.54">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            isolation: isolate;
+                        }
+                    </style>
+                </defs>
+                <g class="to-fill">
+                    <g class="cls-1">
+                        <path
+                            d="M20.05,138.17v-.83L25.69,134a6.8,6.8,0,0,1,.67-.34H20.05V133h7.21v.83l-5.66,3.32a5.53,5.53,0,0,1-.65.33h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,126.83h.62v3.64h2.58V127h.62v3.43h2.77v-3.71h.62v4.41H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,120.42h.62v2.31h6.59v.7H20.67v2.3h-.62Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,119.73V119l6.46-1.62h0l-6.46-1.72v-.79l6.46-1.72h0l-6.46-1.62v-.73l7.21,2v.8l-6.4,1.71,6.4,1.71v.8Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M23.16,104h1c2,0,3.22,1,3.22,2.81s-1.25,2.81-3.22,2.81h-1c-2,0-3.22-1-3.22-2.81S21.19,104,23.16,104Zm.93.71h-.87c-1.72,0-2.65.82-2.65,2.1s.93,2.1,2.65,2.1h.87c1.72,0,2.65-.82,2.65-2.1S25.81,104.7,24.09,104.7Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M24.14,99.55a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H20.05V99.83a2,2,0,0,1,2-2.27h.15A1.89,1.89,0,0,1,24,98.86l3.27-1.45v.75Zm-3.46,2.07h2.84V100c0-1.25-.52-1.77-1.39-1.77H22c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M23.13,93.71l4.13-3.19v.9l-3.62,2.79.95.92h2.67v.7H20.05v-.7h3.64l-3.64-3.48v-.94Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,89.2v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,86.65v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H20.05V81.5h7.21v.83L21.6,85.65A5.53,5.53,0,0,1,21,86h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.66,74.7l.55.36a3.09,3.09,0,0,0-.61,2c0,1.39,1,2.09,2.54,2.09h.92c1.77,0,2.64-.76,2.64-2.23a3.7,3.7,0,0,0-.36-1.69H24.06v1.7h-.62V74.52h3.29a4,4,0,0,1,.64,2.4c0,2-1.22,2.91-3.31,2.91h-.89c-2,0-3.23-1-3.23-2.8A3.62,3.62,0,0,1,20.66,74.7Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,70.21v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,67.66v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H20.05v-.67h7.21v.83L21.6,66.66A5.53,5.53,0,0,1,21,67h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,56h.62v2.31h6.59V59H20.67v2.3h-.62Z" transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,50.42h.62v3.64h2.58V50.63h.62v3.43h2.77V50.35h.62v4.41H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,48h6.59V44.38h.62v4.31H20.05Z" transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,42.46h6.59V38.85h.62v4.31H20.05Z" transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,37.63v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.66,30.13l.55.36a3.09,3.09,0,0,0-.61,2c0,1.39,1,2.09,2.54,2.09h.92c1.77,0,2.64-.76,2.64-2.23a3.7,3.7,0,0,0-.36-1.69H24.06v1.7h-.62V30h3.29a4,4,0,0,1,.64,2.4c0,2-1.22,2.91-3.31,2.91h-.89c-2,0-3.23-1-3.23-2.8A3.62,3.62,0,0,1,20.66,30.13Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,24h.62v3.64h2.58V24.2h.62v3.43h2.77V23.92h.62v4.41H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.05,22.26v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H20.05v-.67h7.21v.83L21.6,21.26a5.53,5.53,0,0,1-.65.33h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M20.66,10.39l.55.36a3,3,0,0,0-.61,1.92c0,1.33,1,2.06,2.54,2.06h.92c1.77,0,2.64-.8,2.64-2.13a2.86,2.86,0,0,0-.74-2l.55-.41a3.37,3.37,0,0,1,.86,2.4c0,1.87-1.22,2.83-3.31,2.83h-.89c-2,0-3.23-1-3.23-2.77A3.57,3.57,0,0,1,20.66,10.39Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M20.05,4.43h.62V8.07h2.58V4.64h.62V8.07h2.77V4.36h.62V8.77H20.05Z"
+                            transform="translate(0 -2.46)"></path>
+                    </g>
+                    <g class="cls-1">
+                        <path d="M43.26,138.17H36.05v-4.28h.62v3.58h2.76V134.1h.62v3.37h3.21Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M39.16,126.93h1c2,0,3.22,1,3.22,2.81s-1.25,2.81-3.22,2.81h-1c-2,0-3.22-1-3.22-2.81S37.19,126.93,39.16,126.93Zm.93.71h-.87c-1.72,0-2.65.82-2.65,2.1s.93,2.1,2.65,2.1h.87c1.72,0,2.65-.82,2.65-2.1S41.81,127.64,40.09,127.64Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.14,122.49a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H36.05v-2.49a2,2,0,0,1,2-2.27h.15A1.89,1.89,0,0,1,40,121.8l3.27-1.45v.75Zm-3.46,2.07h2.84V123c0-1.25-.52-1.77-1.39-1.77H38c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M36.66,111.21l.55.36a3,3,0,0,0-.61,1.92c0,1.33,1,2.06,2.54,2.06h.92c1.77,0,2.64-.8,2.64-2.13a2.86,2.86,0,0,0-.74-2l.55-.41a3.37,3.37,0,0,1,.86,2.4c0,1.87-1.22,2.83-3.31,2.83h-.89c-2,0-3.23-1-3.23-2.77A3.57,3.57,0,0,1,36.66,111.21Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.14,106.82a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H36.05V107.1a2,2,0,0,1,2-2.27h.15a1.89,1.89,0,0,1,1.83,1.3l3.27-1.45v.75Zm-3.46,2.07h2.84v-1.58c0-1.25-.52-1.77-1.39-1.77H38c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,98.76h.62v3.64h2.58V99h.62v3.43h2.77V98.69h.62v4.41H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M43.26,91.5v.75l-2.24.8v3l2.24.82v.72L36.05,95v-.79Zm-2.85,4.38V93.27l-1.95.7c-.49.18-.85.31-1.79.6.94.27,1.3.41,1.79.59Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,86.08h.62v2.31h6.59v.7H36.67v2.3h-.62Z" transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,84.86v-.7h7.21v.7Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M36.05,82.31v-.83l5.64-3.31a6.8,6.8,0,0,1,.67-.34H36.05v-.67h7.21V78L37.6,81.31a5.53,5.53,0,0,1-.65.33h6.31v.67Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M36.66,70.36l.55.36a3.09,3.09,0,0,0-.61,2c0,1.39,1,2.09,2.54,2.09h.92c1.77,0,2.64-.76,2.64-2.23a3.7,3.7,0,0,0-.36-1.69H40.06v1.7h-.62V70.18h3.29a4,4,0,0,1,.64,2.4c0,2-1.22,2.91-3.31,2.91h-.89c-2,0-3.23-1-3.23-2.8A3.62,3.62,0,0,1,36.66,70.36Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,61.53h.62v3.64h2.58V61.74h.62v3.43h2.77V61.46h.62v4.41H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,60.41v-.77l6.49-2.22h0l-6.49-2.22v-.73L43.26,57v.8Z"
+                            transform="translate(0 -2.46)">
+                        </path>
+                        <path d="M36.05,48.88h.62v3.64h2.58V49.09h.62v3.43h2.77V48.81h.62v4.41H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.14,44.38a2.44,2.44,0,0,1,0,.27v1.8h3.11v.7H36.05V44.66a2,2,0,0,1,2-2.27h.15A1.89,1.89,0,0,1,40,43.69l3.27-1.45V43Zm-3.46,2.07h2.84V44.87c0-1.25-.52-1.77-1.39-1.77H38c-.84,0-1.35.54-1.35,1.66Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M40.31,38.31h2.95V39H40.31l-4.26,2.48V40.7l3.62-2.05-3.62-2v-.78Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,32.57V31.8l6.49-2.22h0l-6.49-2.22v-.73l7.21,2.58V30Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M43.26,20.55v.75L41,22.1v3l2.24.82v.72L36.05,24v-.79Zm-2.85,4.38V22.32l-1.95.7c-.49.18-.85.31-1.79.6.94.27,1.3.41,1.79.59Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,18.61h6.59V15h.62v4.31H36.05Z" transform="translate(0 -2.46)"></path>
+                        <path
+                            d="M40.19,9.38H36.05V8.69h4.4c2,0,2.92,1,2.92,2.56s-.92,2.56-2.92,2.56h-4.4v-.69h4.14c1.79,0,2.55-.62,2.55-1.87S42,9.38,40.19,9.38Z"
+                            transform="translate(0 -2.46)"></path>
+                        <path d="M36.05,2.53h.62V6.17h2.58V2.74h.62V6.17h2.77V2.46h.62V6.87H36.05Z"
+                            transform="translate(0 -2.46)"></path>
+                    </g>
+                </g>
+            </svg>
+            <div class="arrow">
+                <div class="ico" style="transform: translate(-50%, -50%) rotate(180deg);"></div>
+            </div>
+        </div>
+        <div class="inner pc">
+            <div class="footer_top">
+                <div class="col_left">
+                    <div class="logo">
+                        <span class="blind">NICE</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="81.211" height="30.639"
+                            viewBox="0 0 81.211 30.639">
+                            <path data-name="Path 104352"
+                                d="M0 28.986V0l19.793 20.707V1.845h4.1v28.793L4.096 9.986v19ZM34.488 1.845v27.141h-4.1V1.845Zm26.578 1.459v4.852a11.357 11.357 0 0 0-7.347-2.97 9.356 9.356 0 0 0-7.049 3.006 10.134 10.134 0 0 0-2.883 7.313 9.891 9.891 0 0 0 2.883 7.207 9.521 9.521 0 0 0 7.066 2.934 8.669 8.669 0 0 0 3.674-.7 10.6 10.6 0 0 0 1.749-.949 20.673 20.673 0 0 0 1.907-1.441v4.939a14.793 14.793 0 0 1-7.382 1.983 13.622 13.622 0 0 1-9.936-4.06 13.463 13.463 0 0 1-4.1-9.879 13.937 13.937 0 0 1 3.428-9.246 13.648 13.648 0 0 1 10.916-4.975 13.856 13.856 0 0 1 7.074 1.986Zm20.145 2.391H70.33v6.521h10.564v3.85H70.33v9.07h10.881v3.85H66.234V1.845h14.977Z"
+                                fill="#fff"></path>
+                        </svg>
+                    </div>
+                    <p class="copy">
+                        Copyright © 2022 by NICE Holdings. <br>
+                        All Rights Reserved
+                    </p>
+                    <div class="family_site">
+                        <button class="tit">
+                            <span>FAMILY SITE</span>
+                            <div class="ico">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </button>
+                        <div class="site_list">
+                            <ul>
+                                <li><a href="#">NICE평가정보</a></li>
+                                <li><a href="#">NICE신용평가</a></li>
+                                <li><a href="#">NICE신용정보</a></li>
+                                <li><a href="#">NICE D&B</a></li>
+                                <li><a href="#">NICE피앤아이</a></li>
+                                <li><a href="#">NICE투자파트너스</a></li>
+                                <li><a href="#">NICE지니데이타</a></li>
+                                <li><a href="#">NICE에이엔아이</a></li>
+                                <li><a href="#">한국전자금융</a></li>
+                                <li><a href="#">NICE정보통신</a></li>
+                                <li><a href="#">NICE페이먼츠</a></li>
+                                <li><a href="#">KIS정보통신</a></li>
+                                <li><a href="#">NICE디앤알</a></li>
+                                <li><a href="#">NICE씨엠에스</a></li>
+                                <li><a href="#">오케이포스</a></li>
+                                <li><a href="#">서울전자통신</a></li>
+                                <li><a href="#">아이티엠반도체</a></li>
+                                <li><a href="#">지니틱스</a></li>
+                                <li><a href="#">NICE LMS</a></li>
+                                <li><a href="#">닥터스텍</a></li>
+                                <li><a href="#">버드뷰</a></li>
+                                <li><a href="#">NICE비즈니스플랫폼</a></li>
+                                <li><a href="#">리얼허브</a></li>
+                                <li><a href="#">웨이브포스</a></li>
+                                <li><a href="#">리페이퍼</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_right">
+                    <nav class="footer_gnb">
+                        <div class="depth1">
+                            <a href="#">NICE</a>
+                            <ul class="depth2">
+                                <li><a href="#">경영이념</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#">NICE그룹</a></li>
+                            </ul>
+                        </div>
+                        <div class="depth1">
+                            <a href="#">비즈니스</a>
+                            <ul class="depth2">
+                                <li><a href="#">사업 소개</a></li>
+                                <li><a href="#">평가∙데이터</a></li>
+                                <li><a href="#">결제</a></li>
+                                <li><a href="#">금융</a></li>
+                                <li><a href="#">친환경제조</a></li>
+                            </ul>
+                        </div>
+                        <div class="depth1">
+                            <a href="#">투자 정보</a>
+                            <ul class="depth2">
+                                <li><a href="#">기업지배구조</a></li>
+                                <li><a href="#">주식정보</a></li>
+                                <li><a href="#">재무정보</a></li>
+                                <li><a href="#">공시정보</a></li>
+                                <li><a href="#">IR 자료실</a></li>
+                            </ul>
+                        </div>
+                        <div class="depth1">
+                            <a href="#">지속가능경영</a>
+                            <ul class="depth2">
+                                <li><a href="#">윤리경영</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                                <li><a href="#">ESG</a></li>
+                            </ul>
+                        </div>
+                        <div class="depth1">
+                            <a href="#">인재 영입</a>
+                            <ul class="depth2">
+                                <li><a href="#">NICE인</a></li>
+                                <li><a href="#">조직문화</a></li>
+                                <li class="link"><a href="#">채용공고</a></li>
+                            </ul>
+                        </div>
+                        <div class="depth1">
+                            <a href="#">뉴스</a>
+                            <ul class="depth2">
+                                <li><a href="#">보도자료</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer_btm">
+                <div class="col_left">
+                    <p>(주)NICE홀딩스</p>
+                    <p>서울특별시 영등포구 은행로 17(여의도동)</p>
+                    <p>대표전화 02-2122-4000</p>
+                </div>
+                <div class="col_right">
+                    <ul>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">영상정보처리기기 운영 관리 방침</a></li>
+                        <li><a href="#">이메일주소 무단수집 거부</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="inner mo">
+            <section class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="81.211" height="30.639" viewBox="0 0 81.211 30.639">
+                    <path data-name="Path 104352"
+                        d="M0 28.986V0l19.793 20.707V1.845h4.1v28.793L4.096 9.986v19ZM34.488 1.845v27.141h-4.1V1.845Zm26.578 1.459v4.852a11.357 11.357 0 0 0-7.347-2.97 9.356 9.356 0 0 0-7.049 3.006 10.134 10.134 0 0 0-2.883 7.313 9.891 9.891 0 0 0 2.883 7.207 9.521 9.521 0 0 0 7.066 2.934 8.669 8.669 0 0 0 3.674-.7 10.6 10.6 0 0 0 1.749-.949 20.673 20.673 0 0 0 1.907-1.441v4.939a14.793 14.793 0 0 1-7.382 1.983 13.622 13.622 0 0 1-9.936-4.06 13.463 13.463 0 0 1-4.1-9.879 13.937 13.937 0 0 1 3.428-9.246 13.648 13.648 0 0 1 10.916-4.975 13.856 13.856 0 0 1 7.074 1.986Zm20.145 2.391H70.33v6.521h10.564v3.85H70.33v9.07h10.881v3.85H66.234V1.845h14.977Z"
+                        fill="#fff"></path>
+                </svg>
+                <p class="copy">
+                    Copyright © 2022 by NICE Holdings. <br>
+                    All Rights Reserved
+                </p>
+            </section>
+            <section class="site_map">
+                <ul>
+                    <li class="depth1">
+                        <a href="#">
+                            <span>NICE</span>
+                            <div class="ic">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <ul class="depth2">
+                            <li><a href="#">경영이념</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">NICE그룹</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#">
+                            <span>비즈니스</span>
+                            <div class="ic">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <ul class="depth2">
+                            <li><a href="#">사업 소개</a></li>
+                            <li><a href="#">평가∙데이터</a></li>
+                            <li><a href="#">결제</a></li>
+                            <li><a href="#">금융</a></li>
+                            <li><a href="#">친환경제조</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#">
+                            <span>투자정보</span>
+                            <div class="ic">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <ul class="depth2">
+                            <li><a href="#">기업지배구조</a></li>
+                            <li><a href="#">주식정보</a></li>
+                            <li><a href="#">재무정보</a></li>
+                            <li><a href="#">공시정보</a></li>
+                            <li><a href="#">IR 자료실</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#">
+                            <span>지속가능경영</span>
+                            <div class="ic">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <ul class="depth2">
+                            <li><a href="#">윤리경영</a></li>
+                            <li><a href="#">사회공헌</a></li>
+                            <li><a href="#">ESG</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#">
+                            <span>인재영입</span>
+                            <div class="ic">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <ul class="depth2">
+                            <li><a href="#">NICE인</a></li>
+                            <li><a href="#">조직문화</a></li>
+                            <li class="link"><a href="#">채용공고</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#">
+                            <span>뉴스</span>
+                            <div class="ic">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <ul class="depth2">
+                            <li><a href="#">보도자료</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="company_info">
+                <p>(주)NICE홀딩스</p>
+                <p>서울특별시 영등포구 은행로 17(여의도동)</p>
+                <p>대표전화 02-2122-4000</p>
+            </section>
+            <section class="policy">
+                <ul>
+                    <li class="terms"><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">영상정보처리기기 운영 관리 방침</a></li>
+                    <li><a href="#">이메일주소 무단수집 거부</a></li>
+                </ul>
+            </section>
+            <section class="family_site">
+                <button class="tit">
+                    <span>FAMILY SITE</span>
+                    <div class="ic">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="site_list">
+                    <div class="list_wrap">
+                        <ul>
+                            <li><a href="#">NICE씨엠에스</a></li>
+                            <li><a href="#">오케이포스</a></li>
+                            <li><a href="#">서울전자통신</a></li>
+                            <li><a href="#">아이티엠반도체</a></li>
+                            <li><a href="#">지니틱스</a></li>
+                            <li><a href="#">NICE LMS</a></li>
+                            <li><a href="#">닥터스텍</a></li>
+                            <li><a href="#">버드뷰</a></li>
+                            <li><a href="#">NICE비즈니스플랫폼</a></li>
+                            <li><a href="#">리얼허브</a></li>
+                            <li><a href="#">웨이브포스</a></li>
+                            <li><a href="#">리페이퍼</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">NICE평가정보</a></li>
+                            <li><a href="#">NICE신용평가</a></li>
+                            <li><a href="#">NICE신용정보</a></li>
+                            <li><a href="#">NICE D&B</a></li>
+                            <li><a href="#">NICE피앤아이</a></li>
+                            <li><a href="#">NICE투자파트너스</a></li>
+                            <li><a href="#">NICE지니데이타</a></li>
+                            <li><a href="#">NICE에이엔아이</a></li>
+                            <li><a href="#">한국전자금융</a></li>
+                            <li><a href="#">NICE정보통신</a></li>
+                            <li><a href="#">NICE페이먼츠</a></li>
+                            <li><a href="#">KIS정보통신</a></li>
+                            <li><a href="#">NICE디앤알</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
